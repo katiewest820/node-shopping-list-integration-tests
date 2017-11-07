@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy: app: hidden-journey-23581
+deploy: 
   provider: heroku
   api_key:
     secure: rZVso6ox+lL74+gpiL5h7urO5gC/mQb9mEa1Ao7aiZvalW4F0vA1Inm0WJpwQPFBMxJRfXR93eA2EoZE61wrVG/y2oYTUVIj3YXL+Xp4FHbC8XJrIgHelLuAjcix7F7MlN/BusfHBLYFfjIkI1l+qWkfQLa77cBv8Ynt054Ti67rTqfOoXak/1XXbK3DumfnSSFKesWu2U/EMvsklZcYIGJNskqQWgNKOqabaPCAahs24QwO6zlFTohke6ZbyElqMtIW648zu32ufv918tFD7jnJnzINz3CQiROLAVQj6Ip/iw/IUfvF7qxZGCBZTWWZrsN4ebiBDFV01VPiI44V/jgLg//35a/KnhAHSTB03OpgpBb+SBGUFK7yiNST7zYvdsM/FJqFX9HAW9o9BGiq2jJTWqcdyTkt243SIF+rsexGZQ1nVRPqnF9bgDACE3/Yzs64DzvJTC5wM1zjSw5HwDgrE7s1YnqKFAMoxiXSok//VcQCoP4aTNxjQMl27wqVd+u0u0xqMMZ9xly0n6aOuYFQNY/eSQKIwFvuDWlQMD1Y/+fgZSVayFFi48dNQL/nd9+aA2LabHAEJiMcs+bHlYS89hcy0A+FwtOZEsnMwimhSCsMKr2/0Ugnb0b4pkJhzpHxGSvZ58YwNAeOFlZhm4t74A3e9315+gmYrcQCHwM=
-  app: node-shopping-list-integration-tests
+  app: hidden-journey-23581
   on:
     repo: katiewest820/node-shopping-list-integration-tests
